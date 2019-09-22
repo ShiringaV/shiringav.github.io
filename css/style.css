@@ -198,6 +198,8 @@ hr {
 
 .nav-toggle.active .nav-toggle__item {
     background: none;
+    /* iphone */
+    cursor: pointer;
 }
 
 .nav-toggle__item:before,
@@ -376,62 +378,6 @@ hr {
     font-weight: 300;
     color: #999;
 }
-/*
-
-!*about*!
-
-.about{
-    margin: 80px -15px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.about__item {
-    width: 33.33333%;
-    padding: 0 15px;
-    position: relative;
-}
-
-.about__item:hover .about__img {
-    transform: translate3d(0, -10px, 0);
-}
-
-.about__item:hover .about__text{
-    opacity: 1;
-}
-
-.about__item:hover .about__img img {
-    opacity: .1;
-}
-
-.about__img {
-    background: linear-gradient(to bottom, #F38181, #FCE38A);
-    transition: transform .1s linear;
-}
-
-.about__img img {
-    display: block;
-    transition: opacity .1s linear;
-}
-
-.about__text {
-    width: 100%;
-    opacity: 0;
-    font-size: 24px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 2;
-    transform: translate3d(0, -50%, 0);
-    transition: opacity .2s linear;!*
-    border-bottom: #FFFFFF 2px solid;
-    border-top: #FFFFFF 2px solid;*!
-}
-*/
 
 /*statistics*/
 
@@ -492,6 +438,7 @@ hr {
 .accordion__item {
     border: 1px solid #E5E5E5;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .accordion__item.active .accordion__content {
@@ -550,7 +497,7 @@ hr {
     font-size: 14px;
     color: #333333;
     text-transform: uppercase;
-
+    cursor: pointer;
 }
 
 .form__google {
