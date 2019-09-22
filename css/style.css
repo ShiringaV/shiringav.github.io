@@ -642,15 +642,6 @@ hr {
         border-bottom: 0;
     }
 
-
-    /*wedo*/
-    .wedo__img {
-        display: none;
-    }
-
-    .wedo__item {
-        width: 100%;
-    }
 }
 
 @media (max-width: 770px){
@@ -715,6 +706,15 @@ hr {
         display: block;
     }
 
+
+    /*wedo*/
+    .wedo__img {
+        display: none;
+    }
+
+    .wedo__item {
+        width: 100%;
+    }
 }
 
 @media (max-width: 575px) {
