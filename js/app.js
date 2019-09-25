@@ -46,7 +46,8 @@ $(function () {
         $("#nav").toggleClass("active");
     });
 
-/*    collapse*/
+
+    /*    collapse*/
 
     $("[data-collapse]").on("click", function (event) {
         event.preventDefault();
