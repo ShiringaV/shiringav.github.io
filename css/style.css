@@ -198,6 +198,8 @@ hr {
 
 .nav-toggle.active .nav-toggle__item {
     background: none;
+    /* iphone */
+    cursor: pointer;
 }
 
 .nav-toggle__item:before,
@@ -436,6 +438,7 @@ hr {
 .accordion__item {
     border: 1px solid #E5E5E5;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .accordion__item.active .accordion__content {
@@ -494,7 +497,7 @@ hr {
     font-size: 14px;
     color: #333333;
     text-transform: uppercase;
-
+    cursor: pointer;
 }
 
 .form__google {
