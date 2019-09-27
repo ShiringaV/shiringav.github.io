@@ -7,6 +7,8 @@ $(function () {
 /*    header fixed*/
     checkScroll(scrollOffset);
 
+    alert("Check")
+
     $(window).on("scroll", function () {
         scrollOffset = $(this).scrollTop();
         checkScroll(scrollOffset);
@@ -47,7 +49,7 @@ $(function () {
 
 /*    collapse*/
 
-    $("[data-collapse]").on("touch", function (event) {
+    $("[data-collapse]").on("click touchstart", function (event) {
         event.preventDefault();
         var blockId = $(this).data('collapse'),
             $this = $(this);
