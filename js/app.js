@@ -23,7 +23,7 @@ $(function () {
 
 /*    smooth scroll*/
 
-    $("[data-scroll").on("click", function (event) {
+    $("[data-scroll").on("click touchstart", function (event) {
         event.preventDefault();
         var blockId = $(this).data('scroll'),
             $this = $(this),
@@ -39,7 +39,7 @@ $(function () {
 
 /*    menu nav toggle*/
 
-    $("#nav_toggle").on("click", function (event) {
+    $("#nav_toggle").on("click touchstart", function (event) {
         event.preventDefault();
 
         $(this).toggleClass("active");
@@ -48,7 +48,7 @@ $(function () {
 
 /*    collapse*/
 
-    $("[data-collapse]").on("click", function (event) {
+    $("[data-collapse]").on("click touchstart", function (event) {
         event.preventDefault();
         var blockId = $(this).data('collapse'),
             $this = $(this);
