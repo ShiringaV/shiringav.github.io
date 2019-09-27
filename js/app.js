@@ -7,8 +7,6 @@ $(function () {
 /*    header fixed*/
     checkScroll(scrollOffset);
 
-    alert("Check")
-
     $(window).on("scroll", function () {
         scrollOffset = $(this).scrollTop();
         checkScroll(scrollOffset);
@@ -24,7 +22,7 @@ $(function () {
 
 /*    smooth scroll*/
 
-    $("[data-scroll]").on("click touchstart", function (event) {
+    $("[data-scroll]").on("click", function (event) {
         event.preventDefault();
         var blockId = $(this).data('scroll'),
             $this = $(this),
@@ -40,7 +38,7 @@ $(function () {
 
 /*    menu nav toggle*/
 
-    $("#nav_toggle").on("click touchstart", function (event) {
+    $("#nav_toggle").on("click", function (event) {
         event.preventDefault();
 
         $(this).toggleClass("active");
@@ -49,7 +47,7 @@ $(function () {
 
 /*    collapse*/
 
-    $("[data-collapse]").on("click touchstart", function (event) {
+    $("[data-collapse]").on("click", function (event) {
         event.preventDefault();
         var blockId = $(this).data('collapse'),
             $this = $(this);
