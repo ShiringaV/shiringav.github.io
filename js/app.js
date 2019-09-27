@@ -4,8 +4,6 @@ $(function () {
     introH = $("#intro").innerHeight(),
     scrollOffset = $(window).scrollTop();
 
-    alert("Check JS fix iPhone")
-
 /*    header fixed*/
     checkScroll(scrollOffset);
 
@@ -24,7 +22,7 @@ $(function () {
 
 /*    smooth scroll*/
 
-    $("[data-scroll").on("click touchstart", function (event) {
+    $("[data-scroll]").on("click touchstart", function (event) {
         event.preventDefault();
         var blockId = $(this).data('scroll'),
             $this = $(this),
@@ -49,7 +47,7 @@ $(function () {
 
 /*    collapse*/
 
-    $("[data-collapse]").on("click touchstart", function (event) {
+    $("[data-collapse]").on("touch", function (event) {
         event.preventDefault();
         var blockId = $(this).data('collapse'),
             $this = $(this);
