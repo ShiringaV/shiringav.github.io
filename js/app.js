@@ -1,6 +1,6 @@
 $(function () {
 
-    var header = $("#header"),
+    let header = $("#header"),
     introH = $("#intro").innerHeight(),
     scrollOffset = $(window).scrollTop();
 
@@ -24,7 +24,7 @@ $(function () {
 
     $("[data-scroll]").on("click", function (event) {
         event.preventDefault();
-        var blockId = $(this).data('scroll'),
+        let blockId = $(this).data('scroll'),
             $this = $(this),
             blockOffset = $(blockId).offset().top;
             blockOffset -= 50;
@@ -55,9 +55,7 @@ $(function () {
 
     $("[data-collapse]").on("click", function (event) {
         event.preventDefault();
-        var blockId = $(this).data('collapse'),
-            $this = $(this);
-
+        let blockId = $(this).data('collapse')
         $(blockId).slideToggle();
     });
 
