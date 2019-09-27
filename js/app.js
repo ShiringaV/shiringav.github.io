@@ -4,7 +4,7 @@ $(function () {
     introH = $("#intro").innerHeight(),
     scrollOffset = $(window).scrollTop();
 
-    alert("Check JS fix iPhone 6s Plus")
+    alert("Check JS fix iPhone")
 
 /*    header fixed*/
     checkScroll(scrollOffset);
