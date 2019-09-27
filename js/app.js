@@ -13,7 +13,7 @@ $(function () {
     });
 
     function checkScroll() {
-        if(scrollOffset >= introH){
+        if(scrollOffset >= introH-50){
             header.addClass("fixed");
         } else {
             header.removeClass("fixed");
@@ -27,6 +27,12 @@ $(function () {
         var blockId = $(this).data('scroll'),
             $this = $(this),
             blockOffset = $(blockId).offset().top;
+            blockOffset -= 50;
+
+        if (introH <= 770) {
+            $("#nav_toggle").toggleClass("active");
+            $("#nav").toggleClass("active")
+        }
 
         $("#nav a").removeClass("active");
         $this.addClass("active");
