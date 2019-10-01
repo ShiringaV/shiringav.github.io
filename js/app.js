@@ -30,9 +30,29 @@ $(function () {
             blockOffset -= 50;
 
         if (introH <= 770) {
+            let navToggle = $("#nav_toggle"),
+                navFi =  $("#nav");
+
+            navToggle.toggleClass("active");
+            navFi.toggleClass("active");
+
+            /*if (!navToggle.hasClass("active")){
+                navToggle.toggleClass("active");
+            }
+            if (!navFi.hasClass("active")){
+                navFi.toggleClass("active")
+            }*/
+        }
+
+        /*if (scrollOffset < 100){
             $("#nav_toggle").toggleClass("active");
             $("#nav").toggleClass("active")
-        }
+        }*/
+
+        /*if (blockOffset < 100) {
+            $("#nav_toggle").toggleClass("active");
+            $("#nav").toggleClass("active")
+        }*/
 
         $("#nav a").removeClass("active");
         $this.addClass("active");
@@ -55,7 +75,7 @@ $(function () {
 
     $("[data-collapse]").on("click", function (event) {
         event.preventDefault();
-        let blockId = $(this).data('collapse')
+        let blockId = $(this).data('collapse');
         $(blockId).slideToggle();
     });
 
