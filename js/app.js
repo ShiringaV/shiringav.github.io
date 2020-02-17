@@ -1,5 +1,5 @@
 $(function () {
-
+    let status = 1;
     let header = $("#header"),
     introH = $("#intro").innerHeight(),
     scrollOffset = $(window).scrollTop();
@@ -35,7 +35,7 @@ $(function () {
 
             navToggle.toggleClass("active");
             navFi.toggleClass("active");
-
+            
             /*if (!navToggle.hasClass("active")){
                 navToggle.toggleClass("active");
             }

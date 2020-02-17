@@ -98,7 +98,7 @@ hr {
 
 .header.fixed {
     padding: 10px 0;
-    background-color: #4879bc;
+    background-color: #000000;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     position: fixed;
     top: 0;
@@ -108,7 +108,7 @@ hr {
 }
 
 .header.active {
-    background-color: #4879bc;
+    background-color: #000000;
 }
 
 .header__inner {
@@ -140,7 +140,7 @@ hr {
 }
 
 .nav__link:hover{
-    color: #FCE38A;
+    color: rgb(255, 249, 228);
 }
 
 .nav__link:after{
@@ -149,7 +149,7 @@ hr {
     width: 100%;
     height: 3px;
     opacity: 0;
-    background-color: #FCE38A;
+    background-color: rgb(255, 249, 228);
     position: absolute;
     top: 100%;
     left: 0;
@@ -270,8 +270,8 @@ hr {
     padding: 80px 0;
 }
 
-.section--grey {
-    background-color: #595959;
+.section--black {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .section__header {
@@ -320,75 +320,21 @@ hr {
     position: relative;
 }
 
-.card__inner:hover .card__img {
-    transform: translate3d(0, -10px, 0);
-}
-
-.card__inner:hover .card__img img {
-    opacity: .5;
-}
-
-.card__inner:hover .card__text {
-    opacity: 1;
-}
-
-.card__img {
-    background: linear-gradient(to bottom, #2e64b4, #24b49b);
-    /*background: linear-gradient(to bottom, #f38181, #fce38a);*/
-    transition: transform .2s linear;
+.card__info {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .card__img img {
     display: block;
     max-width: 100%;
     height: auto;
-    transition: opacity .1s linear;
-}
-
-.card__text {
-    width: 100%;
-
-    font-size: 18px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
-    opacity: 0;
-
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 2;
-    transform: translate3d(0, -50%, 0);
-
-    transition: opacity .2s linear;
-}
-
-.card__info {
-    margin-top: 20px;
-
-    text-align: center;
-}
-
-.card__name {
-    margin-bottom: 5px;
-
-    font-size: 14px;
-    color: #333;
-    text-transform: uppercase;
-}
-
-.card__prof {
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 300;
-    color: #999;
 }
 
 /*statistics*/
 
 .statistics {
-    background-color: rgba(35, 134, 101, 0.49);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .stat {
@@ -400,14 +346,14 @@ hr {
     flex: 1 1 0;
     padding: 70px 25px;
     border-left: 1px solid #FFFFFF;
-    opacity: 30%;
+    opacity: 100%;
     text-align: center;
     color: #FFFFFF;
 }
 
 .stat__item:last-child{
     border-right:  1px solid #FFFFFF;
-    opacity: 30%;
+    opacity: 100%;
 }
 
 .stat__count {
@@ -647,7 +593,7 @@ hr {
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: #4879bc;
+        background-color: #000000;
     }
 
     .nav.active {
