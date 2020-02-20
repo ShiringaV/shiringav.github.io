@@ -271,7 +271,7 @@ hr {
 }
 
 .section--black {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .section__header {
@@ -334,7 +334,7 @@ hr {
 /*statistics*/
 
 .statistics {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .stat {
