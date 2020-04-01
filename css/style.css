@@ -21,6 +21,15 @@ a {
     color: #FFFFFF;
 }
 
+.a__last {
+    text-align: center;
+    color: #333333;
+}
+
+a.shop{
+    background-color: #F38181;
+}
+
 hr {
     display: block;
     width: 100%;
@@ -232,6 +241,11 @@ hr {
     transform: rotate(-45grad) translate3d(0, 3px, 0);
 }
 
+.flooter__sl {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
 /* Button */
 .btn {
     display: inline-block;
@@ -251,10 +265,6 @@ hr {
     color: #333;
 }
 
-.p__last {
-    text-align: center;
-    color: #333333;
-}
 
 .p__title {
     color: #FFFFFF;
