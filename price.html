@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="ммд гоу, mmd go, mmd-go, живи в мииссии">
+    <meta name="description" content="ММД GO, Живи в миссии, лагерь 2020">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Лагерь "Живи в миссии"</title>
+    <link rel="stylesheet" href="css/table.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&display=swap&subset=cyrillic-ext"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="price">
+        <h2>Лагерь 2020</h2>
+        <h3>«Живи в миссии»</h3>
+        <br>
+        <div class="table">
+            <table class="zebra">
+                <tr>
+                    <th></th>
+                    <th>Стандарт</th>
+                    <th>Стандарт+</th>
+                    <th>VIP</th>
+                </tr>
+                <tr>
+                    <td class="round-top">Цена</td>
+                    <td>1500 грн</td>
+                    <td>1900 грн</td>
+                    <td>1 грн*</td>
+                </tr>
+                <tr>
+                    <td class="round-top">Место под палатку</td>
+                    <td>+</td>
+                    <td>+</td>
+                    <td>+</td>
+                </tr>
+                <tr>
+                    <td class="round-top">4-х разовое питание</td>
+                    <td>+</td>
+                    <td>+</td>
+                    <td>+</td>
+                </tr>
+                <tr>
+                    <td class="round-top">Место в 3-х местной палатке</td>
+                    <td>-</td>
+                    <td>+</td>
+                    <td>+</td>
+                </tr>
+                <tr>
+                    <td class="round-top">Каримат</td>
+                    <td>-</td>
+                    <td>+</td>
+                    <td>+</td>
+                </tr>
+                <tr>
+                    <td class="round-top">Спальник</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>+</td>
+                </tr>
+            </table>
+            <p>*для миссионеров которые были на внешней миссии боле 3-х месяцев, кол-во мест ограниченно</p>
+        </div>
+    </div>
+
+    <div class="buy">
+        <a class="btn" href="https://forms.gle/pfiHUynEXMjiAnNx9">КУПИТЬ</a>
+    </div>
+
+    <script>
+
+        function random(min, max) {
+
+            var rand = min + Math.random() * (max + 1 - min);
+            rand = Math.floor(rand);
+
+            return rand;
+
+        }
+
+        for (var i = 0; i < 200; i++) {
+
+            document.getElementsByTagName('body')[0].innerHTML += '<i class="rain" style="left: ' + random(-2000, 2000) + 'px;transform: translate3d(0, 0, 0);animation-delay: ' + (0.01 * i) + 's"></i>';
+
+        }
+
+    </script>
+</body>
+
+</html>
