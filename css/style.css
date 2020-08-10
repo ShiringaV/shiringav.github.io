@@ -23,11 +23,17 @@ a {
 
 .a__last {
     text-align: center;
-    color: #333333;
+    color: #000000;
 }
 
 a.shop{
-    background-color: #F38181;
+    color: rgb(20, 59, 4);
+    font-size: 16px;
+}
+
+a.shop:hover{
+    color: rgb(21, 9, 122);
+    font-size: 16px;
 }
 
 hr {
