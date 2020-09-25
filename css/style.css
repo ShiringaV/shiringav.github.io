@@ -45,6 +45,11 @@ hr {
     background-color: #E5E5E5;
 }
 
+.boldtext {
+    color: black;
+    font-weight: bold;
+}
+
 .container {
     width: 100%;
     max-width: 1230px;
@@ -245,6 +250,21 @@ hr {
 .nav-toggle.active .nav-toggle__item:after {
     transform-origin: left bottom;
     transform: rotate(-45grad) translate3d(0, 3px, 0);
+}
+
+.money {
+    color: red;
+    font-weight: bold;
+}
+
+.coffee {
+    color: red;
+    font-weight: normal;
+}
+
+.immlogo {
+    font-size: 14px;
+    vertical-align: middle;
 }
 
 .flooter__sl {
@@ -557,6 +577,11 @@ hr {
         border-bottom: 0;
     }
 
+    .immlogo {
+        font-size: 10px;
+        vertical-align: middle;
+    }
+
 }
 
 @media (max-width: 770px){
@@ -635,6 +660,11 @@ hr {
     .wedo__item {
         width: 100%;
     }
+
+    .immlogo {
+        font-size: 10px;
+        vertical-align: middle;
+    }
 }
 
 @media (max-width: 575px) {
@@ -680,6 +710,10 @@ hr {
     /*accordion*/
     .accordion__title {
         font-size: 11px;
+    }
+
+    .immlogo {
+        display: none;
     }
 
 }
