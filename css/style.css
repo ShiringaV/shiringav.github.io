@@ -269,6 +269,7 @@ hr {
 
 .flooter__sl {
     text-align: center;
+    margin-top: 24px;
     margin-bottom: 24px;
 }
 
@@ -535,11 +536,22 @@ hr {
     color: #333333;
 }
 
+.text__left {
+    text-align: left;
+    padding: 32px 32px 0px 32px;
+}
+
+
 @media (max-width: 1230px) {
 
     /*intro*/
     .intro__title {
         font-size: 60px;
+    }
+
+    .immlogo {
+        font-size: 10px;
+        vertical-align: middle;
     }
 }
 
@@ -578,9 +590,10 @@ hr {
     }
 
     .immlogo {
-        font-size: 10px;
+        font-size: 0px;
         vertical-align: middle;
     }
+    
 
 }
 
@@ -664,6 +677,11 @@ hr {
     .immlogo {
         font-size: 10px;
         vertical-align: middle;
+    }
+
+    .big__image {
+        max-width: 100%;
+        height: auto;
     }
 }
 
